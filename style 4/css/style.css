@@ -7,8 +7,8 @@ h1{
 }
 
 p {
-  background-color: #bfbfbf;
-  border: 2px solid black;
+  background-color: #344586;
+  border: 2px solid yellow;
   height: 150px;
   margin-right: 10px;
   padding: 40px 10px 5px 10px;
@@ -22,7 +22,7 @@ p {
 }
 
 #p1 {
-  background-color: #D59898;
+  background-color: #e61f1f;
   position: absolute;
   top: 0;
   right: 0;
@@ -35,8 +35,8 @@ p {
 
 }
 #p2 {
-  background-color:#C14543 ;
-  color: white;
+  background-color:#228e4a ;
+  color: red;
   position: absolute;
   top: 0;
   right: 0;
@@ -49,7 +49,7 @@ p {
 
 }
 #p3 {
- background-color: #E5D198;
+ background-color: #9d1d9b;
   position: absolute;
   top: 0;
   right: 0;
@@ -115,7 +115,7 @@ p {
   
 }
 
-/********** Medium devices only **********/
+
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -159,7 +159,7 @@ p {
   }
 }
 
-/********** Mobile only **********/
+
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
